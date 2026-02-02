@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component managing the Valentine's acceptance state, toggling between the question page and success page without personalization settings.",
+  "frontend/src/pages/ValentinePage.tsx": "Interactive Valentine's question page with \"Hey Pallavi!\" title flanked by animated hearts, featuring \"Yes\" and \"No\" buttons where the \"No\" button smoothly orbits around the centered \"Yes\" button using viewport-aware polar coordinate calculations, and each funny rejection message is assigned a unique fixed on-screen position generated once on mount and displayed at its assigned coordinates with smooth transitions while staying fully visible within screen boundaries.",
+  "frontend/src/pages/SuccessPage.tsx": "Success celebration page displaying confetti animation, heart explosion image, and a fixed success message, without any footer branding.",
+  "frontend/src/components/FloatingHearts.tsx": "Background animation component rendering 15 floating heart emojis with randomized positions, delays, and durations.",
+  "frontend/src/components/Confetti.tsx": "Confetti animation component generating 100 colorful falling pieces with random properties for the success celebration.",
+  "frontend/src/components/SettingsPanel.tsx": "Side panel component using Sheet UI for personalizing partner name, main question, and success message.",
+  "frontend/src/index.css": "Global styles with romantic pink/rose OKLCH color scheme and custom animations including floating hearts, confetti, pulse, bounce, fade-in, gentle float, and celebration-specific animations for GIFs.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as the application is frontend-only with no backend queries required.",
+  "frontend/src/components/FloatingGifs.tsx": "Component that renders 8 Valentine-themed GIFs (hearts, roses, emojis, cupid arrows) positioned around the main question area with smooth fade-in, bounce, and float animations.",
+  "frontend/src/components/CelebrationGifs.tsx": "Component that displays 6 celebratory Valentine GIFs (hugging hearts, dancing couples, kiss emojis) on the success page with bounce and pulse animations."
+}

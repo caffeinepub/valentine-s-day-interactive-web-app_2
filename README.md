@@ -1,2 +1,3 @@
-# valentine-s-day-interactive-web-app_2
-Exported from Caffeine project: Valentine's Day Interactive Web App
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`
